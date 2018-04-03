@@ -1,0 +1,14 @@
+CREATE TABLE tv_shows (
+  id INT,
+  name TEXT,
+  rating INT
+ );
+ 
+ INSERT INTO tv_shows (id, name, rating)
+ VALUES (1, 'The FLash', 5);
+ INSERT INTO tv_shows (id, name, rating)
+ VALUES (2, 'Arrow', 5);
+ INSERT INTO tv_shows (id, name, rating)
+ VALUES (3, 'Community', 5);
+ 
+  SELECT id, name, rating FROM tv_shows
